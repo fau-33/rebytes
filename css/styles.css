@@ -1,0 +1,36 @@
+/* Gerais */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.row {
+  margin: 0;
+}
+.container {
+  padding: 70px 0;
+}
+
+/* Barra de Navegação */
+header , .navbar {
+  background-color: #0b5b86;
+}
+
+#nav-container {
+  padding: 0;
+  padding-bottom: 0;
+}
+
+#logo {
+  width: 75%;
+}
+#navbar-brand {
+  padding: 0;
+}
+#navbar-links a {
+  color: #e8edf1;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.navbar-expand-lg .navbar-nav, .nav-link {
+  padding: 1rem .8rem;
+}
